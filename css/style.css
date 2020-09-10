@@ -620,6 +620,14 @@ font-family: Arial;
 	color: #00aeda;
 }
 
+.form .skills {
+	background:url(../images/racestart.jpg);
+	background-size: cover;
+	padding: 150px 0 0 0;
+	height: 100%;
+	padding: 150px 0 0 0;
+}
+
 
 /*-----------------------------------------------------
 -------------- Image Bg Styling Starts ----------------
@@ -1399,6 +1407,14 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	margin: 10px 0 50px 0;
 }
 
+.app-features p.big {
+	font-size: 20px;
+	font-weight: 400;
+	color: #646363;
+	line-height: 1.7;
+	margin: 50px 0 50px 0;
+}
+
 
 .app-features img {
 	 margin: 0 auto;
@@ -1513,6 +1529,18 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	background: #00aeda;
 }
 
+.review-skill {
+	padding: 50px 0 100px 0;
+	text-align: center;
+	background: #00aeda;
+}
+	
+.review-skill h1 {
+	font-size: 37px;
+	font-weight: 900;
+	margin: 0 0 40px 0;
+	text-transform:uppercase;
+}
 
 .reviews {
   width: 100%;
@@ -1522,6 +1550,12 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .review-single img {
   width:80px;
 	height:80px;
+}
+
+.review-skills img {
+	width:200px;
+	  height:100%;
+	  padding: 50px 0 100px 0;
 }
 
 .review-text h3 {

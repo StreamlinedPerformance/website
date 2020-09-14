@@ -408,6 +408,44 @@ p {
 	background-color: #111111;
 }
 
+/*---------- Social List ---------*/
+
+.home-social-list {
+	position: absolute;
+	left: 48px;
+	bottom: 54px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.8rem;
+	line-height: 1.75;
+	text-align: center;
+  }
+  .home-social-list::before {
+	display: block;
+	content: "";
+	width: 2px;
+	height: 42px;
+	background-color: rgba(255, 255, 255, 0.3);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 12px;
+  }
+  .home-social-list li {
+	padding-left: 0;
+	color: #FFFFFF;
+  }
+  .home-social-list li a, .home-social-list li a:visited {
+	color: #FFFFFF;
+  }
+  .home-social-list li a:hover, 
+  .home-social-list li a:focus, 
+  .home-social-list li a:active {
+	color: #00aeda;
+  }
+
+
+
 /* ------------------------------------------------------
 -------------- Main Section Styling Starts --------------
 --------------------------------------------------------*/

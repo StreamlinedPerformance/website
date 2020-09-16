@@ -255,7 +255,7 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #A1A1A1;
+  color: #222222;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -441,7 +441,7 @@ p {
   .home-social-list li a:hover, 
   .home-social-list li a:focus, 
   .home-social-list li a:active {
-	color: #00aeda;
+	color: #222222;
   }
 
 
@@ -582,9 +582,17 @@ font-family: Arial;
 /*---------------- Form Home Styling ------------------- */
 
 .form .hero-section {
-	background:url(../images/header-bg.jpg);
 	background-size: cover;
 	padding: 150px 0 0 0;
+}
+
+.form .hero-section .mainvideo {
+	object-fit: cover;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .form .hero-content {
@@ -665,6 +673,7 @@ font-family: Arial;
 	height: 100%;
 	padding: 150px 0 0 0;
 }
+
 
 
 /*-----------------------------------------------------
@@ -1462,6 +1471,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	padding: 50px 0 0 0;
 }
 
+.app-features .list {
+	position: relative;
+	top: 25px;
+}
+
 .app-features .icon {
 	margin-top: 10px;
 	margin-bottom: 20px;
@@ -1470,6 +1484,12 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .app-features .icon i {
 	font-size: 60px;
 	color: #00aeda;
+}
+
+.app-features .skillsicon i {
+	font-size: 60px;
+	color: #00aeda;
+	top: 50px;
 }
 
 
@@ -1525,6 +1545,22 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-weight: 900;
 	letter-spacing: -1px;
 	margin: 0 0 20px 0;
+}
+
+.split-content h2 {
+	font-size: 37px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	margin: 0 0 20px 0;
+	text-align: center;
+}
+
+.split-content h3 {
+	font-size: 16px;
+	line-height: 1.4;
+	color: #A1A1A1;
+	letter-spacing: 0;
+	text-align: center;
 }
 
 .split-content p {

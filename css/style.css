@@ -492,7 +492,7 @@ p {
  font-family: 'Roboto', sans-serif;
  background-color: #00aeda;
  border: 1px solid #00aeda;
- border-radius: 0;
+ border-radius: 30px;
  color: #FFFFFF;
  font-size: 15px;
  font-weight: 700;
@@ -1478,6 +1478,14 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	margin: 50px 0 50px 0;
 }
 
+.app-features p.big b {
+	font-size: 20px;
+	font-weight: 600;
+	color: #504f4f;
+	line-height: 1.7;
+	margin: 50px 0 50px 0;
+}
+
 
 .app-features img {
 	 margin: 0 auto;
@@ -1524,12 +1532,36 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	text-transform:uppercase;
 }
 
+.app-features .feature-single h2 {
+	font-size: 19px;
+	font-weight: 600;
+	color: #3a3939;
+	margin: 10px 0 20px 0;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+}
+
 .app-features .feature-single p {
 	font-size: 17px;
 	color: #A1A1A1;
 	line-height: 1.4;
 	letter-spacing: 1px;
 	margin: 10px 0 0 0;
+}
+
+.app-features .videoWrapper {
+	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	height: 0;
+}
+
+.app-features .videoWrapper .topvideo {
+	position: absolute;
+  	top: 0;
+  	left: 0;
+	padding: 25px 0 50px 0;
+	width: 100%;
+	height: 100%;
 }
 
 

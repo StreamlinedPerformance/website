@@ -1966,10 +1966,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .subscribe-form .mail {
  background-color: #F9F9F9;
  border: none;
- border-radius: 5px 0 0 5px;
+ border-radius: 5px;
  outline: none;
  height: 40px;
  padding: 0 130px 0 20px;
+ margin: 3px;
  box-shadow: none;
  -webkit-box-sizing: content-box;
  -moz-box-sizing: content-box;
@@ -1989,11 +1990,11 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
   font-size: 0.9em;
   height: 40px;
   border: 2px solid;
-  border-radius: 0 5px 5px 0;
-  margin: 0;
+  border-radius: 5px;
+  margin: 23px 0 3px 2px;
   padding: 0 25px 0 25px;
 	border-color: #FFFFFF;
-  background-color: #927f54;
+  background-color: #00aeda;
   color: #FFFFFF;
 	box-shadow: 0 0 1px transparent;
   outline: none;

@@ -607,7 +607,7 @@ font-family: Arial;
 
 /*---------------- Form Home Styling ------------------- */
 
-.form .hero-section {
+.form .front {
 	background-image:url(../images/nickdive.jpg);
 	background-size: cover;
 	padding: 150px 0 0 0;

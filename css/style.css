@@ -477,12 +477,6 @@ p {
 
 /* ----- Hero Section Styling Starts ----- */
 
-.hero-section {
-	height: 100%;
-	background-color: #FFFFFF;
-	padding: 150px 0 0 0;
-}
-
 .hero-social {
 	padding: 0;
 	overflow: hidden;
@@ -617,6 +611,8 @@ font-family: Arial;
 	background-image:url(../images/nickdive.jpg);
 	background-size: cover;
 	padding: 150px 0 0 0;
+	height: 100%;
+	background-color: #FFFFFF;
 }
 
 .form .hero-content {
@@ -717,26 +713,26 @@ font-family: Arial;
 
 .form .skills {
 	background-image:url(../images/racestart.jpg);
+	background-color: #FFFFFF;
 	background-size: cover;
 	padding: 150px 0 0 0;
 	height: 100%;
-	padding: 150px 0 0 0;
 }
 
 .form .technique {
 	background-image:url(../images/techmain.jpg);
+	background-color: #FFFFFF;
 	background-size: cover;
 	padding: 150px 0 0 0;
 	height: 100%;
-	padding: 150px 0 0 0;
 }
 
 .form .coach {
 	background-image:url(../images/coachmain.jpg);
+	background-color: #FFFFFF;
 	background-size: cover;
 	padding: 150px 0 0 0;
 	height: 100%;
-	padding: 150px 0 0 0;
 }
 
 

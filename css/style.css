@@ -479,7 +479,7 @@ p {
 
 .hero-section {
 	height: 100%;
-	background: #FFFFFF;
+	background-color: #FFFFFF;
 	padding: 150px 0 0 0;
 }
 
@@ -614,7 +614,7 @@ font-family: Arial;
 /*---------------- Form Home Styling ------------------- */
 
 .form .hero-section {
-	background:url(../images/nickdive.jpg);
+	background-image:url(../images/nickdive.jpg);
 	background-size: cover;
 	padding: 150px 0 0 0;
 }
@@ -716,7 +716,7 @@ font-family: Arial;
 }
 
 .form .skills {
-	background:url(../images/racestart.jpg);
+	background-image:url(../images/racestart.jpg);
 	background-size: cover;
 	padding: 150px 0 0 0;
 	height: 100%;
@@ -724,7 +724,7 @@ font-family: Arial;
 }
 
 .form .technique {
-	background:url(../images/techmain.jpg);
+	background-image:url(../images/techmain.jpg);
 	background-size: cover;
 	padding: 150px 0 0 0;
 	height: 100%;
@@ -732,7 +732,7 @@ font-family: Arial;
 }
 
 .form .coach {
-	background:url(../images/coachmain.jpg);
+	background-image:url(../images/coachmain.jpg);
 	background-size: cover;
 	padding: 150px 0 0 0;
 	height: 100%;
@@ -2538,7 +2538,7 @@ padding: 70px 10px 50px 350px;
  }
 
  .subscribe-form .message {
-	width: 290px;		
+	width: 285px;		
 } 
  .subscribe-form .submit-button {
    padding: 0 5px 0 5px;
@@ -2548,7 +2548,7 @@ padding: 70px 10px 50px 350px;
 
 
 	.footer .subscribe-form .message {
-	width: 290px;
+	width: 285px;
 	}
 }
 

@@ -412,8 +412,8 @@ p {
 
 .home-social-list {
 	position: absolute;
-	left: 48px;
-	bottom: 0px;
+	left: 30px;
+	bottom: -30px;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -446,8 +446,6 @@ p {
 
   @media only screen and (max-width: 768px) {
 	.home-social-list {
-	  left: 30px;
-	  bottom: 30px;
 	  font-size: 1.65rem;
 	}
 	.home-social-list::before {
@@ -456,8 +454,6 @@ p {
   }
   @media only screen and (max-width: 500px) {
 	.home-social-list {
-	  left: 20px;
-	  bottom: 30px;
 	  font-size: 1.4rem;
 	}
 	.home-social-list::before {
@@ -610,7 +606,7 @@ font-family: Arial;
 .form .front {
 	background-image:url(../images/nickdive.jpg);
 	background-size: cover;
-	padding: 150px 0 0 0;
+	padding: 150px 0 100px 0;
 	height: 100%;
 	background-color: #FFFFFF;
 }
@@ -757,7 +753,12 @@ font-family: Arial;
 	color: #FFFFFF;
 }
 
-
+.app img.dive {
+	display: block;
+	max-width: 60%;
+	height: auto;
+	margin: 7px auto;
+}
 
 
 
@@ -1061,6 +1062,19 @@ input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placehol
 	margin: 0 auto;
 }
 
+.app img.dive {
+	display: block;
+	max-width: 60%;
+	height: auto;
+	margin: 7px auto;
+}
+
+.app img.swim {
+	display: block;
+	max-width: 90%;
+	height: auto;
+	margin: 8px auto;
+}
 
 .app-info h1 {
   font-size: 34px;
@@ -1303,11 +1317,11 @@ input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placehol
 	position: absolute;
 	left: 0;
 	right: 0;
-	top: 13px;
+	top: 32px;
 }
 
 .pitch-content {
-	padding: 10px 0 50px 0;
+	padding: 10px 5px 20px 5px;
 }
 
 .pitch-content h1 {
@@ -1326,6 +1340,20 @@ input[type="email"]::-webkit-input-placeholder, textarea::-webkit-input-placehol
 	line-height: 1.5;
 	color: #A1A1A1;
 	letter-spacing: 0;
+}
+
+.pitch .clinic-border {
+	border-style: ridge;
+	border-color: #00aeda;
+	border-width: 1px;
+	padding: 20px 0 0 0;
+	margin: 9px 9px 9px 9px;
+}
+
+.pitch .clinic-border:hover, .pitch .clinic-border:focus,
+.pitch .clinic-border:active {
+	border-color: #ffffff;
+
 }
 
 
@@ -2302,6 +2330,44 @@ font-size: 12px;
 	display: Block;
 }
 
+ul.icons
+		{
+			position: relative ;
+			background: rgba(196, 196, 196, 0.39);
+			border-radius: 12em;
+			display: block;
+			padding: 0.15em 0.55em 0.15em 0.55em;
+			font-size: 0.25em;
+			margin-top: 40px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 28%;
+			text-align: center;
+		}
+		
+			ul.icons li
+			{
+				display: inline-block;
+			}
+
+				ul.icons li a
+				{
+					display: inline-block;
+					background: none;
+					width: 2.5em;
+					height: 2.5em;
+					line-height: 2.5em;
+					text-align: center;
+					border-radius: 100%;
+					border: 0;
+					color: inherit;
+					font-size: 28px;
+				}
+				
+					ul.icons li a:hover
+					{
+						color: #00aeda;
+					}
 
 
 /* -------------------------------------------------------
@@ -2366,6 +2432,48 @@ font-size: 12px;
 --------------------- Media --------------------------
 ------------------------------- Queries --------------
 -----------------------------------------------------*/
+
+@media only screen and (max-width: 992px) {
+
+	.pitch {
+		padding: 75px 0 75px 0;
+	}
+
+	.pitch .clinic-border {
+		margin: 18px 9px 18px 9px;
+	}
+
+	.pitch-intro {
+		padding: 0 0 70px 0;
+	}
+
+}
+
+
+
+
+@media only screen and (min-width: 992px) {
+	ul.icons{
+		width: 21%;
+	}
+
+	.pitch .clinic-border {
+		width: 48%;
+		
+	}
+
+
+	.pitch-content {
+		padding: 10px 10px 30px 10px;
+	}
+	
+	
+
+
+}
+
+
+
 
 @media only screen and (min-width: 767px) {
 	.logo {
@@ -2502,6 +2610,7 @@ padding: 70px 10px 50px 350px;
 		font-size: 14px;
 	}
 
+
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
@@ -2523,29 +2632,49 @@ padding: 70px 10px 50px 350px;
 		width: 450px;
 	}
 
+	ul.icons{
+		width: 32%;
+	}
+
+
+		ul.icons li a{
+			font-size: 22px;
+		}
 }
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
 
- .subscribe-form .mail {
-   padding: 0 30px 0 20px;
-   border-radius: 5px;
-   margin: 3px;
- }
+	.subscribe-form .mail {
+	padding: 0 30px 0 20px;
+	border-radius: 5px;
+	margin: 3px;
+	}
 
- .subscribe-form .message {
-	width: 285px;		
-} 
- .subscribe-form .submit-button {
-   padding: 0 5px 0 5px;
-   border-radius: 5px;
-   background-color: #00aeda;
- }
+	.subscribe-form .message {
+		width: 285px;		
+	} 
+	.subscribe-form .submit-button {
+	padding: 0 5px 0 5px;
+	border-radius: 5px;
+	background-color: #00aeda;
+	}
 
 
 	.footer .subscribe-form .message {
 	width: 285px;
 	}
+
+
+	ul.icons{
+		width: 50%;
+	}
+
+
+		ul.icons li a{
+			font-size: 20px;
+		}
+
+
 }
 
 @media screen and (max-width: 399px) {
@@ -2603,11 +2732,15 @@ padding: 70px 10px 50px 350px;
  	 margin-top: 15px;
   }
 
+
+	ul.icons{
+		width: 65%;
+	}
+
  .back-to-top {
 	right: 10px;
 }
- .second
- {
+ .second {
 	padding:0px; 
  }
 
